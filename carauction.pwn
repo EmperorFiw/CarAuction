@@ -1,4 +1,4 @@
-//√–∫∫ª√–¡Ÿ≈√∂ ‡¢’¬π‚¥¬ Emperor_Fiw
+//‡∏£‡∏∞‡∏ö‡∏ö‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ ‡πÄ‡∏Ç‡∏µ‡∏¢‡∏ô‡πÇ‡∏î‡∏¢ Emperor_Fiw
 //FB: Thewaphithak Butkhot
 //YouTube: Emperor Fiw
 
@@ -22,16 +22,16 @@ Dialog:DIALOG_SETTING_AUCTION(playerid, response, listitem, inputtext[])
 			case 0:
 			{
                 if (AuctionStart)
-                    return SendClientMessage(playerid, COLOR_RED, "°“√ª√–¡Ÿ≈‡√‘Ë¡µÈπÕ¬ŸË");
-                Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[µ—Èß§Ë“°“√ª√–¡Ÿ≈]", "‰Õ¥’√∂∑’ËµÈÕß°“√ª√–¡Ÿ≈\n√“§“‡√‘Ë¡µÈπ\n®”π«π Bid ¢—ÈπµË”\n‡√‘Ë¡°“√ª√–¡Ÿ≈", "‡≈◊Õ°", "ª‘¥");
+                    return SendClientMessage(playerid, COLOR_RED, "‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô‡∏≠‡∏¢‡∏π‡πà");
+                Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[‡∏ï‡∏±‡πâ‡∏á‡∏Ñ‡πà‡∏≤‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•]", "‡πÑ‡∏≠‡∏î‡∏µ‡∏£‡∏ñ‡∏ó‡∏µ‡πà‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•\n‡∏£‡∏≤‡∏Ñ‡∏≤‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô\n‡∏à‡∏≥‡∏ô‡∏ß‡∏ô Bid ‡∏Ç‡∏±‡πâ‡∏ô‡∏ï‡πà‡∏≥\n‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•", "‡πÄ‡∏•‡∏∑‡∏≠‡∏Å", "‡∏õ‡∏¥‡∏î");
             }
             case 1:
             {
-                SendClientMessageToAll(COLOR_RED, "> ·Õ¥¡‘π‰¥È¬°‡≈‘°°“√ª√–¡Ÿ≈√∂·≈È«!");
-                SendClientMessageToAll(COLOR_RED, "> ·Õ¥¡‘π‰¥È¬°‡≈‘°°“√ª√–¡Ÿ≈√∂·≈È«!");
-                SendClientMessageToAll(COLOR_RED, "> ·Õ¥¡‘π‰¥È¬°‡≈‘°°“√ª√–¡Ÿ≈√∂·≈È«!");
-                SendClientMessageToAll(COLOR_RED, "> ·Õ¥¡‘π‰¥È¬°‡≈‘°°“√ª√–¡Ÿ≈√∂·≈È«!");
-                SendClientMessageToAll(COLOR_RED, "> ·Õ¥¡‘π‰¥È¬°‡≈‘°°“√ª√–¡Ÿ≈√∂·≈È«!");
+                SendClientMessageToAll(COLOR_RED, "> ‡πÅ‡∏≠‡∏î‡∏°‡∏¥‡∏ô‡πÑ‡∏î‡πâ‡∏¢‡∏Å‡πÄ‡∏•‡∏¥‡∏Å‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ‡πÅ‡∏•‡πâ‡∏ß!");
+                SendClientMessageToAll(COLOR_RED, "> ‡πÅ‡∏≠‡∏î‡∏°‡∏¥‡∏ô‡πÑ‡∏î‡πâ‡∏¢‡∏Å‡πÄ‡∏•‡∏¥‡∏Å‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ‡πÅ‡∏•‡πâ‡∏ß!");
+                SendClientMessageToAll(COLOR_RED, "> ‡πÅ‡∏≠‡∏î‡∏°‡∏¥‡∏ô‡πÑ‡∏î‡πâ‡∏¢‡∏Å‡πÄ‡∏•‡∏¥‡∏Å‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ‡πÅ‡∏•‡πâ‡∏ß!");
+                SendClientMessageToAll(COLOR_RED, "> ‡πÅ‡∏≠‡∏î‡∏°‡∏¥‡∏ô‡πÑ‡∏î‡πâ‡∏¢‡∏Å‡πÄ‡∏•‡∏¥‡∏Å‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ‡πÅ‡∏•‡πâ‡∏ß!");
+                SendClientMessageToAll(COLOR_RED, "> ‡πÅ‡∏≠‡∏î‡∏°‡∏¥‡∏ô‡πÑ‡∏î‡πâ‡∏¢‡∏Å‡πÄ‡∏•‡∏¥‡∏Å‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ‡πÅ‡∏•‡πâ‡∏ß!");
                 BidPrice=0;
                 StartPrice=0;
                 CarPrice=0;
@@ -43,9 +43,9 @@ Dialog:DIALOG_SETTING_AUCTION(playerid, response, listitem, inputtext[])
             case 2:
             {
                 new query[512];
-                SendClientMessageToAll(COLOR_RED, "> °“√ª√–¡Ÿ≈®∫≈ß·≈È«!");
-                SendClientMessageToAllEx(COLOR_RED, "> %s ‰¥È√—∫√∂√ÿËπ %s", GetPlayerNameEx(NumberOneForAuction), g_arrVehicleNames[CarID - 400]);
-                SendClientMessageToAllEx(COLOR_RED, "> „π√“§“∑’Ëª√–¡Ÿ≈ %s", FormatMoney(AuctionPriceCurrent));
+                SendClientMessageToAll(COLOR_RED, "> ‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏à‡∏ö‡∏•‡∏á‡πÅ‡∏•‡πâ‡∏ß!");
+                SendClientMessageToAllEx(COLOR_RED, "> %s ‡πÑ‡∏î‡πâ‡∏£‡∏±‡∏ö‡∏£‡∏ñ‡∏£‡∏∏‡πà‡∏ô %s", GetPlayerNameEx(NumberOneForAuction), g_arrVehicleNames[CarID - 400]);
+                SendClientMessageToAllEx(COLOR_RED, "> ‡πÉ‡∏ô‡∏£‡∏≤‡∏Ñ‡∏≤‡∏ó‡∏µ‡πà‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏• %s", FormatMoney(AuctionPriceCurrent));
                 GivePlayerMoneyEx(playerid, -AuctionPriceCurrent);
                 mysql_format(g_SQL, query, sizeof(query), "INSERT INTO vehicles (carOwnerID, carOwner, carModel, carPrice, carFuel, carPosX, carPosY, carPosZ, carPosA) VALUES(%d, '%s', %d, %d, %.1f, '562.3970', '-1283.8485', '17.0007', '0.0000')", playerData[NumberOneForAuction][pID], GetPlayerNameEx(NumberOneForAuction), CarID, 0, 100.0);
 	            mysql_tquery(g_SQL, query);
@@ -64,24 +64,24 @@ Dialog:DIALOG_SETTING_AUCTION1(playerid, response, listitem, inputtext[])
 	    {
 			case 0:
 			{
-                Dialog_Show(playerid, DIALOG_CARID_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[µ—Èß§Ë“°“√ª√–¡Ÿ≈]","{FFFFFF}°√ÿ≥“√–∫ÿ‰Õ¥’√∂∑’ËµÈÕß°“√","µ°≈ß","ÕÕ°");
+                Dialog_Show(playerid, DIALOG_CARID_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏ï‡∏±‡πâ‡∏á‡∏Ñ‡πà‡∏≤‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•]","{FFFFFF}‡∏Å‡∏£‡∏∏‡∏ì‡∏≤‡∏£‡∏∞‡∏ö‡∏∏‡πÑ‡∏≠‡∏î‡∏µ‡∏£‡∏ñ‡∏ó‡∏µ‡πà‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å");
             }
             case 1:
             {
-                Dialog_Show(playerid, DIALOG_START_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[µ—Èß§Ë“°“√ª√–¡Ÿ≈]","{FFFFFF}°√ÿ≥“√–∫ÿ√“§“‡√‘Ë¡µÈπ","µ°≈ß","ÕÕ°");
+                Dialog_Show(playerid, DIALOG_START_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏ï‡∏±‡πâ‡∏á‡∏Ñ‡πà‡∏≤‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•]","{FFFFFF}‡∏Å‡∏£‡∏∏‡∏ì‡∏≤‡∏£‡∏∞‡∏ö‡∏∏‡∏£‡∏≤‡∏Ñ‡∏≤‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å");
             }
             case 2:
             {
-                Dialog_Show(playerid, DIALOG_BID_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[µ—Èß§Ë“°“√ª√–¡Ÿ≈]","{FFFFFF}°√ÿ≥“√–∫ÿ⁄ Bid ¢—ÈπµË”","µ°≈ß","ÕÕ°");
+                Dialog_Show(playerid, DIALOG_BID_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏ï‡∏±‡πâ‡∏á‡∏Ñ‡πà‡∏≤‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•]","{FFFFFF}‡∏Å‡∏£‡∏∏‡∏ì‡∏≤‡∏£‡∏∞‡∏ö‡∏∏‡∏∫ Bid ‡∏Ç‡∏±‡πâ‡∏ô‡∏ï‡πà‡∏≥","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å");
             }
             case 3:
             {
-                SendClientMessageToAll(COLOR_RED, "> ·Õ¥¡‘π‰¥È‡√‘Ë¡°“√ª√–¡Ÿ≈√∂·≈È«!");
-                SendClientMessageToAllEx(COLOR_RED, "√∂∑’Ëª√–¡Ÿ≈:{FFFFFF} %s", g_arrVehicleNames[CarID - 400]);
-                SendClientMessageToAllEx(COLOR_RED, "√“§“‡√‘Ë¡µÈπ:{FFFFFF} %s", FormatMoney(StartPrice));
-                SendClientMessageToAllEx(COLOR_RED, "®”π«π Bid ¢—ÈπµË”:{FFFFFF} %s", FormatMoney(BidPrice));
-                SendClientMessageToAllEx(COLOR_RED, "√“§“ª√–¡Ÿ≈ª—®®ÿ∫—π:{FFFFFF} %s", FormatMoney(AuctionPriceCurrent));
-                SendClientMessageToAll(COLOR_RED, "§”·π–π” : {FFFFFF}/ª√–¡Ÿ≈ ‡æ◊ËÕª√–¡Ÿ≈√∂!");
+                SendClientMessageToAll(COLOR_RED, "> ‡πÅ‡∏≠‡∏î‡∏°‡∏¥‡∏ô‡πÑ‡∏î‡πâ‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ‡πÅ‡∏•‡πâ‡∏ß!");
+                SendClientMessageToAllEx(COLOR_RED, "‡∏£‡∏ñ‡∏ó‡∏µ‡πà‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•:{FFFFFF} %s", g_arrVehicleNames[CarID - 400]);
+                SendClientMessageToAllEx(COLOR_RED, "‡∏£‡∏≤‡∏Ñ‡∏≤‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô:{FFFFFF} %s", FormatMoney(StartPrice));
+                SendClientMessageToAllEx(COLOR_RED, "‡∏à‡∏≥‡∏ô‡∏ß‡∏ô Bid ‡∏Ç‡∏±‡πâ‡∏ô‡∏ï‡πà‡∏≥:{FFFFFF} %s", FormatMoney(BidPrice));
+                SendClientMessageToAllEx(COLOR_RED, "‡∏£‡∏≤‡∏Ñ‡∏≤‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏õ‡∏±‡∏à‡∏à‡∏∏‡∏ö‡∏±‡∏ô:{FFFFFF} %s", FormatMoney(AuctionPriceCurrent));
+                SendClientMessageToAll(COLOR_RED, "‡∏Ñ‡∏≥‡πÅ‡∏ô‡∏∞‡∏ô‡∏≥ : {FFFFFF}/‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏• ‡πÄ‡∏û‡∏∑‡πà‡∏≠‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ!");
                 AuctionStart = true;
             }
         }
@@ -100,7 +100,7 @@ Dialog:DIALOG_CARID_AUCTION(playerid, response, listitem, inputtext[])
     CarID = id;
     SendClientMessageEx(playerid, COLOR_RED, "%s", g_arrVehicleNames[CarID - 400]);
 
-    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[µ—Èß§Ë“°“√ª√–¡Ÿ≈]", "‰Õ¥’√∂∑’ËµÈÕß°“√ª√–¡Ÿ≈\n√“§“‡√‘Ë¡µÈπ\n®”π«π Bid ¢—ÈπµË”\n‡√‘Ë¡°“√ª√–¡Ÿ≈", "‡≈◊Õ°", "ª‘¥");
+    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[‡∏ï‡∏±‡πâ‡∏á‡∏Ñ‡πà‡∏≤‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•]", "‡πÑ‡∏≠‡∏î‡∏µ‡∏£‡∏ñ‡∏ó‡∏µ‡πà‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•\n‡∏£‡∏≤‡∏Ñ‡∏≤‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô\n‡∏à‡∏≥‡∏ô‡∏ß‡∏ô Bid ‡∏Ç‡∏±‡πâ‡∏ô‡∏ï‡πà‡∏≥\n‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•", "‡πÄ‡∏•‡∏∑‡∏≠‡∏Å", "‡∏õ‡∏¥‡∏î");
 	return 1;
 }
 
@@ -111,7 +111,7 @@ Dialog:DIALOG_START_AUCTION(playerid, response, listitem, inputtext[])
 
     new amount = strval(inputtext);
 	StartPrice = amount;
-    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[µ—Èß§Ë“°“√ª√–¡Ÿ≈]", "‰Õ¥’√∂∑’ËµÈÕß°“√ª√–¡Ÿ≈\n√“§“‡√‘Ë¡µÈπ\n®”π«π Bid ¢—ÈπµË”\n‡√‘Ë¡°“√ª√–¡Ÿ≈", "‡≈◊Õ°", "ª‘¥");
+    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[‡∏ï‡∏±‡πâ‡∏á‡∏Ñ‡πà‡∏≤‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•]", "‡πÑ‡∏≠‡∏î‡∏µ‡∏£‡∏ñ‡∏ó‡∏µ‡πà‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•\n‡∏£‡∏≤‡∏Ñ‡∏≤‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô\n‡∏à‡∏≥‡∏ô‡∏ß‡∏ô Bid ‡∏Ç‡∏±‡πâ‡∏ô‡∏ï‡πà‡∏≥\n‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•", "‡πÄ‡∏•‡∏∑‡∏≠‡∏Å", "‡∏õ‡∏¥‡∏î");
 	return 1;
 }
 
@@ -122,7 +122,7 @@ Dialog:DIALOG_BID_AUCTION(playerid, response, listitem, inputtext[])
 
     new amount = strval(inputtext);
 	BidPrice = amount;
-    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[µ—Èß§Ë“°“√ª√–¡Ÿ≈]", "‰Õ¥’√∂∑’ËµÈÕß°“√ª√–¡Ÿ≈\n√“§“‡√‘Ë¡µÈπ\n®”π«π Bid ¢—ÈπµË”\n‡√‘Ë¡°“√ª√–¡Ÿ≈", "‡≈◊Õ°", "ª‘¥");
+    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[‡∏ï‡∏±‡πâ‡∏á‡∏Ñ‡πà‡∏≤‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•]", "‡πÑ‡∏≠‡∏î‡∏µ‡∏£‡∏ñ‡∏ó‡∏µ‡πà‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•\n‡∏£‡∏≤‡∏Ñ‡∏≤‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô\n‡∏à‡∏≥‡∏ô‡∏ß‡∏ô Bid ‡∏Ç‡∏±‡πâ‡∏ô‡∏ï‡πà‡∏≥\n‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•", "‡πÄ‡∏•‡∏∑‡∏≠‡∏Å", "‡∏õ‡∏¥‡∏î");
 	return 1;
 }
 
@@ -132,43 +132,43 @@ Dialog:DIALOG_CARAUCTION(playerid, response, listitem, inputtext[])
 	if (response)
     {
         if (amount == AuctionPrice)
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ª√–¡Ÿ≈√∂]","{e30022}√“§“µÈÕß¡“°°«Ë“√“§“ª√–¡Ÿ≈ª—®®ÿ∫—π","µ°≈ß","ÕÕ°");
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ]","{e30022}‡∏£‡∏≤‡∏Ñ‡∏≤‡∏ï‡πâ‡∏≠‡∏á‡∏°‡∏≤‡∏Å‡∏Å‡∏ß‡πà‡∏≤‡∏£‡∏≤‡∏Ñ‡∏≤‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏õ‡∏±‡∏à‡∏à‡∏∏‡∏ö‡∏±‡∏ô","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å");
 
         if (amount < AuctionPrice)
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ª√–¡Ÿ≈√∂]","{e30022}√“§“‡√‘Ë¡µÈπ %s","µ°≈ß","ÕÕ°", FormatMoney(AuctionPrice));
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ]","{e30022}‡∏£‡∏≤‡∏Ñ‡∏≤‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô %s","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å", FormatMoney(AuctionPrice));
 
         if (amount > playerData[playerid][pMoney])
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ª√–¡Ÿ≈√∂]","{e30022}®”π«π‡ß‘π¢Õß§ÿ≥‰¡Ë‡æ’¬ßæÕ","µ°≈ß","ÕÕ°");
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ]","{e30022}‡∏à‡∏≥‡∏ô‡∏ß‡∏ô‡πÄ‡∏á‡∏¥‡∏ô‡∏Ç‡∏≠‡∏á‡∏Ñ‡∏∏‡∏ì‡πÑ‡∏°‡πà‡πÄ‡∏û‡∏µ‡∏¢‡∏á‡∏û‡∏≠","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å");
     
         if (!AuctionStart)
-            return SendClientMessage(playerid, COLOR_RED, "°“√ª√–¡Ÿ≈√∂®∫≈ß·≈È«");
+            return SendClientMessage(playerid, COLOR_RED, "‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ‡∏à‡∏ö‡∏•‡∏á‡πÅ‡∏•‡πâ‡∏ß");
 
         if (amount < AuctionPrice+BidPrice || amount < AuctionPriceCurrent+BidPrice)
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ª√–¡Ÿ≈√∂]","{e30022}∫‘¥¢—ÈπµË” %s","µ°≈ß","ÕÕ°", FormatMoney(BidPrice));
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ]","{e30022}‡∏ö‡∏¥‡∏î‡∏Ç‡∏±‡πâ‡∏ô‡∏ï‡πà‡∏≥ %s","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å", FormatMoney(BidPrice));
 
         if (amount <= 0 || amount >= 1000000)
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ª√–¡Ÿ≈√∂]","{e30022}®”π«πµÈÕß‰¡ËπÈÕ¬°«Ë“ 1 ·≈–‰¡Ë¡“°°«Ë“ 1,000,000 %s","µ°≈ß","ÕÕ°", g_arrVehicleNames[CarID - 400]);
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ]","{e30022}‡∏à‡∏≥‡∏ô‡∏ß‡∏ô‡∏ï‡πâ‡∏≠‡∏á‡πÑ‡∏°‡πà‡∏ô‡πâ‡∏≠‡∏¢‡∏Å‡∏ß‡πà‡∏≤ 1 ‡πÅ‡∏•‡∏∞‡πÑ‡∏°‡πà‡∏°‡∏≤‡∏Å‡∏Å‡∏ß‡πà‡∏≤ 1,000,000 %s","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å", g_arrVehicleNames[CarID - 400]);
               
             NumberOneForAuction = playerid;
             AuctionPriceCurrent = amount;
-            SendClientMessageEx(playerid, COLOR_GREEN, "§ÿ≥‰¥È∑”°“√ª√–¡Ÿ≈√∂ „π√“§“ %s", FormatMoney(amount));
-            SendClientMessageToAllEx(COLOR_GREEN, "%s ‰¥È∑”°“√ª√–¡Ÿ≈√∂„π√“§“ %s", GetPlayerNameEx(NumberOneForAuction), FormatMoney(AuctionPriceCurrent));
+            SendClientMessageEx(playerid, COLOR_GREEN, "‡∏Ñ‡∏∏‡∏ì‡πÑ‡∏î‡πâ‡∏ó‡∏≥‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ ‡πÉ‡∏ô‡∏£‡∏≤‡∏Ñ‡∏≤ %s", FormatMoney(amount));
+            SendClientMessageToAllEx(COLOR_GREEN, "%s ‡πÑ‡∏î‡πâ‡∏ó‡∏≥‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ‡πÉ‡∏ô‡∏£‡∏≤‡∏Ñ‡∏≤ %s", GetPlayerNameEx(NumberOneForAuction), FormatMoney(AuctionPriceCurrent));
 
-            SendClientMessageToAllEx(COLOR_RED, "√∂∑’Ëª√–¡Ÿ≈:{FFFFFF} %s", g_arrVehicleNames[CarID - 400]);
-            SendClientMessageToAllEx(COLOR_RED, "√“§“‡√‘Ë¡µÈπ:{FFFFFF} %s", FormatMoney(StartPrice));
-            SendClientMessageToAllEx(COLOR_RED, "®”π«π Bid ¢—ÈπµË”:{FFFFFF} %s", FormatMoney(BidPrice));
-            SendClientMessageToAllEx(COLOR_RED, "√“§“ª√–¡Ÿ≈ª—®®ÿ∫—π:{FFFFFF} %s", FormatMoney(AuctionPriceCurrent));
+            SendClientMessageToAllEx(COLOR_RED, "‡∏£‡∏ñ‡∏ó‡∏µ‡πà‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•:{FFFFFF} %s", g_arrVehicleNames[CarID - 400]);
+            SendClientMessageToAllEx(COLOR_RED, "‡∏£‡∏≤‡∏Ñ‡∏≤‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏ï‡πâ‡∏ô:{FFFFFF} %s", FormatMoney(StartPrice));
+            SendClientMessageToAllEx(COLOR_RED, "‡∏à‡∏≥‡∏ô‡∏ß‡∏ô Bid ‡∏Ç‡∏±‡πâ‡∏ô‡∏ï‡πà‡∏≥:{FFFFFF} %s", FormatMoney(BidPrice));
+            SendClientMessageToAllEx(COLOR_RED, "‡∏£‡∏≤‡∏Ñ‡∏≤‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏õ‡∏±‡∏à‡∏à‡∏∏‡∏ö‡∏±‡∏ô:{FFFFFF} %s", FormatMoney(AuctionPriceCurrent));
     }
     return 1;
 }
 
-alias:CarAuction("ª√–¡Ÿ≈")
+alias:CarAuction("‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•")
 CMD:CarAuction(playerid, params[])
 {
     if (!AuctionStart)
-        return SendClientMessage(playerid, COLOR_RED, "º‘¥æ≈“¥: {FFFFFF}°“√ª√–¡Ÿ≈¬—ß‰¡Ë‡√‘Ë¡¢÷Èπ");
+        return SendClientMessage(playerid, COLOR_RED, "‡∏ú‡∏¥‡∏î‡∏û‡∏•‡∏≤‡∏î: {FFFFFF}‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏¢‡∏±‡∏á‡πÑ‡∏°‡πà‡πÄ‡∏£‡∏¥‡πà‡∏°‡∏Ç‡∏∂‡πâ‡∏ô");
     
-    Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ª√–¡Ÿ≈√∂]","{FFFCCC}°√Õ°√“§“∑’ËµÈÕß°“√ª√–¡Ÿ≈","µ°≈ß","ÕÕ°");
+    Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡∏£‡∏ñ]","{FFFCCC}‡∏Å‡∏£‡∏≠‡∏Å‡∏£‡∏≤‡∏Ñ‡∏≤‡∏ó‡∏µ‡πà‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•","‡∏ï‡∏Å‡∏•‡∏á","‡∏≠‡∏≠‡∏Å");
 
     return 1;
 }
@@ -178,6 +178,6 @@ CMD:setauction(playerid, params[])
     if (playerData[playerid][pAdmin] < 6)
         return 1;
 
-    Dialog_Show(playerid, DIALOG_SETTING_AUCTION, DIALOG_STYLE_LIST, "[‡¡πŸ°“√ª√–¡Ÿ≈]", "- µ—Èß§Ë“°“√ª√–¡Ÿ≈\n- ¬°‡≈‘°°“√ª√–¡Ÿ≈\n- ª‘¥°“√ª√–¡Ÿ≈·≈–„ÀÈ√∂·°ËºŸÈ‡≈Ëπ", "‡≈◊Õ°", "ª‘¥");
+    Dialog_Show(playerid, DIALOG_SETTING_AUCTION, DIALOG_STYLE_LIST, "[‡πÄ‡∏°‡∏ô‡∏π‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•]", "- ‡∏ï‡∏±‡πâ‡∏á‡∏Ñ‡πà‡∏≤‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•\n- ‡∏¢‡∏Å‡πÄ‡∏•‡∏¥‡∏Å‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•\n- ‡∏õ‡∏¥‡∏î‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡∏°‡∏π‡∏•‡πÅ‡∏•‡∏∞‡πÉ‡∏´‡πâ‡∏£‡∏ñ‡πÅ‡∏Å‡πà‡∏ú‡∏π‡πâ‡πÄ‡∏•‡πà‡∏ô", "‡πÄ‡∏•‡∏∑‡∏≠‡∏Å", "‡∏õ‡∏¥‡∏î");
     return 1;
 }  
