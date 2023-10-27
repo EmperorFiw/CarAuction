@@ -1,4 +1,4 @@
-//ระบบประมูลรถ เขียนโดย Emperor_Fiw
+//๏ฟฝะบ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ ๏ฟฝ๏ฟฝยน๏ฟฝ๏ฟฝ Emperor_Fiw
 //FB: Thewaphithak Butkhot
 //YouTube: Emperor Fiw
 
@@ -22,16 +22,16 @@ Dialog:DIALOG_SETTING_AUCTION(playerid, response, listitem, inputtext[])
 			case 0:
 			{
                 if (AuctionStart)
-                    return SendClientMessage(playerid, COLOR_RED, "การประมูลเริ่มต้นอยู่");
-                Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[ตั้งค่าการประมูล]", "ไอดีรถที่ต้องการประมูล\nราคาเริ่มต้น\nจำนวน Bid ขั้นต่ำ\nเริ่มการประมูล", "เลือก", "ปิด");
+                    return SendClientMessage(playerid, COLOR_RED, "๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ");
+                Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[๏ฟฝ๏ฟฝ้งค๏ฟฝาก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ]", "๏ฟฝอด๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอง๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n๏ฟฝาค๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n๏ฟฝำนวน Bid ๏ฟฝ๏ฟฝ้นต๏ฟฝ๏ฟฝ\n๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ", "๏ฟฝ๏ฟฝ๏ฟฝอก", "๏ฟฝิด");
             }
             case 1:
             {
-                SendClientMessageToAll(COLOR_RED, "> แอดมินได้ยกเลิกการประมูลรถแล้ว!");
-                SendClientMessageToAll(COLOR_RED, "> แอดมินได้ยกเลิกการประมูลรถแล้ว!");
-                SendClientMessageToAll(COLOR_RED, "> แอดมินได้ยกเลิกการประมูลรถแล้ว!");
-                SendClientMessageToAll(COLOR_RED, "> แอดมินได้ยกเลิกการประมูลรถแล้ว!");
-                SendClientMessageToAll(COLOR_RED, "> แอดมินได้ยกเลิกการประมูลรถแล้ว!");
+                SendClientMessageToAll(COLOR_RED, "> ๏ฟฝอด๏ฟฝิน๏ฟฝ๏ฟฝยก๏ฟฝ๏ฟฝิก๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ!");
+                SendClientMessageToAll(COLOR_RED, "> ๏ฟฝอด๏ฟฝิน๏ฟฝ๏ฟฝยก๏ฟฝ๏ฟฝิก๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ!");
+                SendClientMessageToAll(COLOR_RED, "> ๏ฟฝอด๏ฟฝิน๏ฟฝ๏ฟฝยก๏ฟฝ๏ฟฝิก๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ!");
+                SendClientMessageToAll(COLOR_RED, "> ๏ฟฝอด๏ฟฝิน๏ฟฝ๏ฟฝยก๏ฟฝ๏ฟฝิก๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ!");
+                SendClientMessageToAll(COLOR_RED, "> ๏ฟฝอด๏ฟฝิน๏ฟฝ๏ฟฝยก๏ฟฝ๏ฟฝิก๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ!");
                 BidPrice=0;
                 StartPrice=0;
                 CarPrice=0;
@@ -43,9 +43,9 @@ Dialog:DIALOG_SETTING_AUCTION(playerid, response, listitem, inputtext[])
             case 2:
             {
                 new query[512];
-                SendClientMessageToAll(COLOR_RED, "> การประมูลจบลงแล้ว!");
-                SendClientMessageToAllEx(COLOR_RED, "> %s ได้รับรถรุ่น %s", GetPlayerNameEx(NumberOneForAuction), g_arrVehicleNames[CarID - 400]);
-                SendClientMessageToAllEx(COLOR_RED, "> ในราคาที่ประมูล %s", FormatMoney(AuctionPriceCurrent));
+                SendClientMessageToAll(COLOR_RED, "> ๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝลจ๏ฟฝลง๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ!");
+                SendClientMessageToAllEx(COLOR_RED, "> %s ๏ฟฝ๏ฟฝ๏ฟฝับรถ๏ฟฝ๏ฟฝ๏ฟฝ %s", GetPlayerNameEx(NumberOneForAuction), g_arrVehicleNames[CarID - 400]);
+                SendClientMessageToAllEx(COLOR_RED, "> ๏ฟฝ๏ฟฝาคาท๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ %s", FormatMoney(AuctionPriceCurrent));
                 GivePlayerMoneyEx(playerid, -AuctionPriceCurrent);
                 mysql_format(g_SQL, query, sizeof(query), "INSERT INTO vehicles (carOwnerID, carOwner, carModel, carPrice, carFuel, carPosX, carPosY, carPosZ, carPosA) VALUES(%d, '%s', %d, %d, %.1f, '562.3970', '-1283.8485', '17.0007', '0.0000')", playerData[NumberOneForAuction][pID], GetPlayerNameEx(NumberOneForAuction), CarID, 0, 100.0);
 	            mysql_tquery(g_SQL, query);
@@ -64,24 +64,24 @@ Dialog:DIALOG_SETTING_AUCTION1(playerid, response, listitem, inputtext[])
 	    {
 			case 0:
 			{
-                Dialog_Show(playerid, DIALOG_CARID_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[ตั้งค่าการประมูล]","{FFFFFF}กรุณาระบุไอดีรถที่ต้องการ","ตกลง","ออก");
+                Dialog_Show(playerid, DIALOG_CARID_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ้งค๏ฟฝาก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ]","{FFFFFF}๏ฟฝ๏ฟฝุณ๏ฟฝ๏ฟฝะบ๏ฟฝ๏ฟฝอด๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอง๏ฟฝ๏ฟฝ๏ฟฝ","๏ฟฝ๏ฟฝลง","๏ฟฝอก");
             }
             case 1:
             {
-                Dialog_Show(playerid, DIALOG_START_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[ตั้งค่าการประมูล]","{FFFFFF}กรุณาระบุราคาเริ่มต้น","ตกลง","ออก");
+                Dialog_Show(playerid, DIALOG_START_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ้งค๏ฟฝาก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ]","{FFFFFF}๏ฟฝ๏ฟฝุณ๏ฟฝ๏ฟฝะบ๏ฟฝ๏ฟฝาค๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ","๏ฟฝ๏ฟฝลง","๏ฟฝอก");
             }
             case 2:
             {
-                Dialog_Show(playerid, DIALOG_BID_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[ตั้งค่าการประมูล]","{FFFFFF}กรุณาระบฺุ Bid ขั้นต่ำ","ตกลง","ออก");
+                Dialog_Show(playerid, DIALOG_BID_AUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ้งค๏ฟฝาก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ]","{FFFFFF}๏ฟฝ๏ฟฝุณ๏ฟฝ๏ฟฝะบ๏ฟฝ๏ฟฝ Bid ๏ฟฝ๏ฟฝ้นต๏ฟฝ๏ฟฝ","๏ฟฝ๏ฟฝลง","๏ฟฝอก");
             }
             case 3:
             {
-                SendClientMessageToAll(COLOR_RED, "> แอดมินได้เริ่มการประมูลรถแล้ว!");
-                SendClientMessageToAllEx(COLOR_RED, "รถที่ประมูล:{FFFFFF} %s", g_arrVehicleNames[CarID - 400]);
-                SendClientMessageToAllEx(COLOR_RED, "ราคาเริ่มต้น:{FFFFFF} %s", FormatMoney(StartPrice));
-                SendClientMessageToAllEx(COLOR_RED, "จำนวน Bid ขั้นต่ำ:{FFFFFF} %s", FormatMoney(BidPrice));
-                SendClientMessageToAllEx(COLOR_RED, "ราคาประมูลปัจจุบัน:{FFFFFF} %s", FormatMoney(AuctionPriceCurrent));
-                SendClientMessageToAll(COLOR_RED, "คำแนะนำ : {FFFFFF}/ประมูล เพื่อประมูลรถ!");
+                SendClientMessageToAll(COLOR_RED, "> ๏ฟฝอด๏ฟฝิน๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ!");
+                SendClientMessageToAllEx(COLOR_RED, "รถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ:{FFFFFF} %s", g_arrVehicleNames[CarID - 400]);
+                SendClientMessageToAllEx(COLOR_RED, "๏ฟฝาค๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ:{FFFFFF} %s", FormatMoney(StartPrice));
+                SendClientMessageToAllEx(COLOR_RED, "๏ฟฝำนวน Bid ๏ฟฝ๏ฟฝ้นต๏ฟฝ๏ฟฝ:{FFFFFF} %s", FormatMoney(BidPrice));
+                SendClientMessageToAllEx(COLOR_RED, "๏ฟฝาคาป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝลปัจ๏ฟฝุบัน:{FFFFFF} %s", FormatMoney(AuctionPriceCurrent));
+                SendClientMessageToAll(COLOR_RED, "๏ฟฝ๏ฟฝ๏ฟฝะน๏ฟฝ : {FFFFFF}/๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ ๏ฟฝ๏ฟฝ๏ฟฝอป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ!");
                 AuctionStart = true;
             }
         }
@@ -100,7 +100,7 @@ Dialog:DIALOG_CARID_AUCTION(playerid, response, listitem, inputtext[])
     CarID = id;
     SendClientMessageEx(playerid, COLOR_RED, "%s", g_arrVehicleNames[CarID - 400]);
 
-    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[ตั้งค่าการประมูล]", "ไอดีรถที่ต้องการประมูล\nราคาเริ่มต้น\nจำนวน Bid ขั้นต่ำ\nเริ่มการประมูล", "เลือก", "ปิด");
+    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[๏ฟฝ๏ฟฝ้งค๏ฟฝาก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ]", "๏ฟฝอด๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอง๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n๏ฟฝาค๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n๏ฟฝำนวน Bid ๏ฟฝ๏ฟฝ้นต๏ฟฝ๏ฟฝ\n๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ", "๏ฟฝ๏ฟฝ๏ฟฝอก", "๏ฟฝิด");
 	return 1;
 }
 
@@ -111,7 +111,7 @@ Dialog:DIALOG_START_AUCTION(playerid, response, listitem, inputtext[])
 
     new amount = strval(inputtext);
 	StartPrice = amount;
-    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[ตั้งค่าการประมูล]", "ไอดีรถที่ต้องการประมูล\nราคาเริ่มต้น\nจำนวน Bid ขั้นต่ำ\nเริ่มการประมูล", "เลือก", "ปิด");
+    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[๏ฟฝ๏ฟฝ้งค๏ฟฝาก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ]", "๏ฟฝอด๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอง๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n๏ฟฝาค๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n๏ฟฝำนวน Bid ๏ฟฝ๏ฟฝ้นต๏ฟฝ๏ฟฝ\n๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ", "๏ฟฝ๏ฟฝ๏ฟฝอก", "๏ฟฝิด");
 	return 1;
 }
 
@@ -122,7 +122,7 @@ Dialog:DIALOG_BID_AUCTION(playerid, response, listitem, inputtext[])
 
     new amount = strval(inputtext);
 	BidPrice = amount;
-    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[ตั้งค่าการประมูล]", "ไอดีรถที่ต้องการประมูล\nราคาเริ่มต้น\nจำนวน Bid ขั้นต่ำ\nเริ่มการประมูล", "เลือก", "ปิด");
+    Dialog_Show(playerid, DIALOG_SETTING_AUCTION1, DIALOG_STYLE_LIST, "[๏ฟฝ๏ฟฝ้งค๏ฟฝาก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ]", "๏ฟฝอด๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอง๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n๏ฟฝาค๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n๏ฟฝำนวน Bid ๏ฟฝ๏ฟฝ้นต๏ฟฝ๏ฟฝ\n๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ", "๏ฟฝ๏ฟฝ๏ฟฝอก", "๏ฟฝิด");
 	return 1;
 }
 
@@ -132,43 +132,43 @@ Dialog:DIALOG_CARAUCTION(playerid, response, listitem, inputtext[])
 	if (response)
     {
         if (amount == AuctionPrice)
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ประมูลรถ]","{e30022}ราคาต้องมากกว่าราคาประมูลปัจจุบัน","ตกลง","ออก");
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ]","{e30022}๏ฟฝาคาต๏ฟฝอง๏ฟฝาก๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝาคาป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝลปัจ๏ฟฝุบัน","๏ฟฝ๏ฟฝลง","๏ฟฝอก");
 
         if (amount < AuctionPrice)
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ประมูลรถ]","{e30022}ราคาเริ่มต้น %s","ตกลง","ออก", FormatMoney(AuctionPrice));
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ]","{e30022}๏ฟฝาค๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ %s","๏ฟฝ๏ฟฝลง","๏ฟฝอก", FormatMoney(AuctionPrice));
 
         if (amount > playerData[playerid][pMoney])
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ประมูลรถ]","{e30022}จำนวนเงินของคุณไม่เพียงพอ","ตกลง","ออก");
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ]","{e30022}๏ฟฝำนวน๏ฟฝิน๏ฟฝอง๏ฟฝุณ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝยง๏ฟฝ๏ฟฝ","๏ฟฝ๏ฟฝลง","๏ฟฝอก");
     
         if (!AuctionStart)
-            return SendClientMessage(playerid, COLOR_RED, "การประมูลรถจบลงแล้ว");
+            return SendClientMessage(playerid, COLOR_RED, "๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝลง๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ");
 
         if (amount < AuctionPrice+BidPrice || amount < AuctionPriceCurrent+BidPrice)
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ประมูลรถ]","{e30022}บิดขั้นต่ำ %s","ตกลง","ออก", FormatMoney(BidPrice));
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ]","{e30022}๏ฟฝิด๏ฟฝ๏ฟฝ้นต๏ฟฝ๏ฟฝ %s","๏ฟฝ๏ฟฝลง","๏ฟฝอก", FormatMoney(BidPrice));
 
         if (amount <= 0 || amount >= 1000000)
-            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ประมูลรถ]","{e30022}จำนวนต้องไม่น้อยกว่า 1 และไม่มากกว่า 1,000,000 %s","ตกลง","ออก", g_arrVehicleNames[CarID - 400]);
+            return Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ]","{e30022}๏ฟฝำนวน๏ฟฝ๏ฟฝอง๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝยก๏ฟฝ๏ฟฝ๏ฟฝ 1 ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝาก๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ 1,000,000 %s","๏ฟฝ๏ฟฝลง","๏ฟฝอก", g_arrVehicleNames[CarID - 400]);
               
             NumberOneForAuction = playerid;
             AuctionPriceCurrent = amount;
-            SendClientMessageEx(playerid, COLOR_GREEN, "คุณได้ทำการประมูลรถ ในราคา %s", FormatMoney(amount));
-            SendClientMessageToAllEx(COLOR_GREEN, "%s ได้ทำการประมูลรถในราคา %s", GetPlayerNameEx(NumberOneForAuction), FormatMoney(AuctionPriceCurrent));
+            SendClientMessageEx(playerid, COLOR_GREEN, "๏ฟฝุณ๏ฟฝ๏ฟฝำก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ ๏ฟฝ๏ฟฝาค๏ฟฝ %s", FormatMoney(amount));
+            SendClientMessageToAllEx(COLOR_GREEN, "%s ๏ฟฝ๏ฟฝำก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝาค๏ฟฝ %s", GetPlayerNameEx(NumberOneForAuction), FormatMoney(AuctionPriceCurrent));
 
-            SendClientMessageToAllEx(COLOR_RED, "รถที่ประมูล:{FFFFFF} %s", g_arrVehicleNames[CarID - 400]);
-            SendClientMessageToAllEx(COLOR_RED, "ราคาเริ่มต้น:{FFFFFF} %s", FormatMoney(StartPrice));
-            SendClientMessageToAllEx(COLOR_RED, "จำนวน Bid ขั้นต่ำ:{FFFFFF} %s", FormatMoney(BidPrice));
-            SendClientMessageToAllEx(COLOR_RED, "ราคาประมูลปัจจุบัน:{FFFFFF} %s", FormatMoney(AuctionPriceCurrent));
+            SendClientMessageToAllEx(COLOR_RED, "รถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ:{FFFFFF} %s", g_arrVehicleNames[CarID - 400]);
+            SendClientMessageToAllEx(COLOR_RED, "๏ฟฝาค๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ:{FFFFFF} %s", FormatMoney(StartPrice));
+            SendClientMessageToAllEx(COLOR_RED, "๏ฟฝำนวน Bid ๏ฟฝ๏ฟฝ้นต๏ฟฝ๏ฟฝ:{FFFFFF} %s", FormatMoney(BidPrice));
+            SendClientMessageToAllEx(COLOR_RED, "๏ฟฝาคาป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝลปัจ๏ฟฝุบัน:{FFFFFF} %s", FormatMoney(AuctionPriceCurrent));
     }
     return 1;
 }
 
-alias:CarAuction("ประมูล")
+alias:CarAuction("๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ")
 CMD:CarAuction(playerid, params[])
 {
     if (!AuctionStart)
-        return SendClientMessage(playerid, COLOR_RED, "ผิดพลาด: {FFFFFF}การประมูลยังไม่เริ่มขึ้น");
+        return SendClientMessage(playerid, COLOR_RED, "๏ฟฝิด๏ฟฝ๏ฟฝาด: {FFFFFF}๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝัง๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ");
     
-    Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[ประมูลรถ]","{FFFCCC}กรอกราคาที่ต้องการประมูล","ตกลง","ออก");
+    Dialog_Show(playerid, DIALOG_CARAUCTION, DIALOG_STYLE_INPUT, "{F92605}[๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ]","{FFFCCC}๏ฟฝ๏ฟฝอก๏ฟฝาคาท๏ฟฝ๏ฟฝ๏ฟฝอง๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ","๏ฟฝ๏ฟฝลง","๏ฟฝอก");
 
     return 1;
 }
@@ -178,6 +178,6 @@ CMD:setauction(playerid, params[])
     if (playerData[playerid][pAdmin] < 6)
         return 1;
 
-    Dialog_Show(playerid, DIALOG_SETTING_AUCTION, DIALOG_STYLE_LIST, "[เมนูการประมูล]", "- ตั้งค่าการประมูล\n- ยกเลิกการประมูล\n- ปิดการประมูลและให้รถแก่ผู้เล่น", "เลือก", "ปิด");
+    Dialog_Show(playerid, DIALOG_SETTING_AUCTION, DIALOG_STYLE_LIST, "[๏ฟฝ๏ฟฝ๏ฟฝูก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ]", "- ๏ฟฝ๏ฟฝ้งค๏ฟฝาก๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n- ยก๏ฟฝ๏ฟฝิก๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ\n- ๏ฟฝิด๏ฟฝ๏ฟฝรป๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝรถ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ", "๏ฟฝ๏ฟฝ๏ฟฝอก", "๏ฟฝิด");
     return 1;
 }  
