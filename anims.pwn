@@ -1,3 +1,4 @@
+//ระบบท่า่ทาง
 #include 	<YSI_Coding\y_hooks>
 
 CMD:animhelp(playerid, params[])
